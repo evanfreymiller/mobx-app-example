@@ -20,11 +20,10 @@ const BidPackageIndex = observer(() => {
       <div>{index.title}</div>
       <br />
       <span>
-        <button className="button" onClick={index.show}>Show</button>
-        <button className="button" onClick={index.hide}>Hide</button>
+        <button className="button" onClick={index.render ? index.hide : index.show}>{index.render ? "Hide" : "Show"}</button>
       </span>
       <br />
-      {index.render && <div>Showing</div>}
+      {index.render && <div>I'm the new Div in town</div>}
       <br />
       <Count />
     </div>
