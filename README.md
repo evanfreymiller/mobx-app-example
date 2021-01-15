@@ -20,7 +20,7 @@ You will also see any lint errors in the console.
 With the app running, open the Chrome Developer Tools, and go to the console.  
 On initial rendering, you will see three console logs for the three components, `Count`, `BidPackageIndex`, and `BidPackageView`.
 
-Click the `Show` Button.  This will console log a render for `BidPackageIndex` as a div is revealed.  
+- [ ] Click the `Show` Button.  This will console log a render for `BidPackageIndex` as a div is revealed.  
 Notice that the child component of `Count` does not re-render.
 
 Next click the `Add` button, the `BidPackageView`, and `Count` component will re-render.  
