@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 ### View Live App Renders
 
 With the app running, open the Chrome Developer Tools, and go to the console.  
-On initial rendering, you will see three console logs for the three components, `Count`, `BidPackageIndex`, and `BidPackageView`.
+- On initial rendering, you will see three console logs for the three components, `Count`, `BidPackageIndex`, and `BidPackageView`.
 
 - Click the `Show` Button.  
   - This will console log a render for `BidPackageIndex` as a div is revealed.  
